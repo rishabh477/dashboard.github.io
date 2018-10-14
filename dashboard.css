@@ -1,0 +1,345 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+    color: #636363;
+}
+.row{
+	margin:0;
+    background-color: whitesmoke;
+    max-width: 100%;
+}
+.col-lg-2{
+    background-color: white;
+    box-shadow: 1px 1px 20px lightgrey;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    height: 100vh;
+}
+.col-lg-10{
+    position: fixed;
+    top: 0;
+    right: 0;
+    overflow: auto;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+.logo{
+	border-bottom: 1px solid lightgray;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+.logo > img{
+	width: 50px;
+    padding: 7px 5px;
+}
+.heading{
+	font-size: 13px;
+    color: lightgray;
+    font-size: 13px;
+    color: lightgrey;
+    padding: 5px 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.panel-default > .panel-heading{
+	background:none;
+	color: #636363;
+	margin-top: 12px;
+}
+.panel-default > .panel-heading a:hover ,.panel-default > .panel-heading a:focus{
+    text-decoration: none;
+}
+.panel-default > .panel-heading:hover{
+    background-color: #d9f0fa;
+    border-left: 2px solid deepskyblue;
+    color: deepskyblue;
+    transition: .5s;
+}
+.panel-default > .panel-heading .fa{
+	margin-right: 15px;
+}
+.panel-default > .panel-heading .badge {
+    float: right;
+    border-radius: 5px;
+ }   
+.panel-group .panel{
+	box-shadow: none;
+	border:none;
+}
+.panel-body ul{
+	list-style-type: none;
+}
+.panel-body ul li a{
+	color:#636363;
+	font-size: 16px;
+	letter-spacing: 1px;
+	padding-top: 5px;
+	display: inline-block;
+}
+.panel-body ul li a:hover , .panel-body ul li a:focus {
+    color: deepskyblue;
+    text-decoration: none;
+}
+
+.panel-body ul li a .fa{
+	margin-right: 15px;
+}
+/*-----Top bar section----*/
+
+.header{
+    box-shadow: 1px 1px 10px lightgray;
+    position: fixed;
+    width: 83%;
+    z-index: 10;
+}
+.navbar-right{
+    position: fixed;
+    right: 5%;
+}
+.topicon{
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+}
+.topicon .badge{
+    position: absolute;
+    left: 66%;
+    bottom: 40%;
+    transform: translate(-50% ,-50%);
+    background-color: red;
+}
+/* -------main body section---------*/
+.main-body{
+    margin-top: 60px;
+}
+.col-lg-10{
+    max-width: 100%;
+    padding: 0;
+    background-color: whitesmoke;
+}
+.navbar{
+	margin:0;
+}
+.orders{
+	background-color: white;
+    border-left: 3px solid skyblue;
+    padding-left: 10px;
+    box-shadow: 1px 1px 10px lightgrey;
+    border-radius: 5px;
+}
+.orders h1{
+	font-weight: bold;
+    font-size: 28px;
+    padding: 25px 0 0 20px;
+    color: deepskyblue;
+}
+.orders span{
+	font-size: 15px;
+    padding: 0 0 15px 10px;
+    color:#828282;
+    display: inline-block;
+}
+.orders .fa{
+	position: absolute;
+    font-size: 20px;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    padding: 20px;
+    left: 65%;
+    background-color: deepskyblue;
+    bottom: 10%;
+    color: white;
+}
+.expenses .fa{
+    background-color: deeppink;
+}
+.revenue .fa{
+    background-color: #11a588;
+}
+.users .fa{
+    background-color: orange;
+}
+.expenses h1{
+    color: deeppink;
+}
+.revenue h1{
+    color: #11a588;
+}
+.users h1{
+    color: orange;
+}
+.expenses{
+	background-color: white;
+    border-left: 3px solid red;
+    padding-left: 10px;
+}
+.revenue{
+	background-color: white;
+    border-left: 3px solid green;
+    padding-left: 10px;
+}
+.users{
+	background-color: white;
+    border-left: 3px solid orange;
+    padding-left: 10px;
+}
+.navbar-nav{
+	position: relative;
+	top: 10px;
+}
+.navbar-nav .btn{
+	background:none;
+	padding: 0;
+	font-size: 16px;
+}
+
+.searchbar input[type=text]{
+	position: relative;
+    padding: 5px 150px 5px 10px;
+    border-radius: 25px;
+    border: 1px solid lightgray;
+    text-transform: capitalize;
+    background-color: ghostwhite;
+    font-size: 13px;
+    margin-left: 20px;
+}
+.searchbar .glyphicon{
+	position: absolute;
+    left: 320px;
+    top: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+/*----section2-- chart section*/
+.section2{
+    padding: 10px;
+    margin-top: 25px;
+}
+.col-lg-8 img{
+    max-width: 100%; 
+    box-shadow: 1px 1px 10px lightgrey;
+    width: 100%;
+    height: 450px;
+}
+.col-lg-4 img{
+    max-width: 100%;
+    height: 350px;
+    box-shadow: 1px 1px 10px lightgrey;
+}
+/* -----------------------------section 3 => Table-------------------------------- */
+.section3 .container{
+    background-color: white;
+    margin-top: 25px;
+}
+.progress{
+    height: 8px;
+    box-shadow: 0px 8px 10px #edecec;
+}
+.table > thead > tr {
+    border-top: 1px solid #ddd;
+}
+.table > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+    line-height: 2;
+}
+.tabletop{
+    border-bottom: 1px solid #ddd;
+    color: black;
+}
+.table{
+    margin-top: 20px;
+}
+.tabletop h5{
+    font-weight: bold;
+    line-height: 3;
+    display: inline-block;
+}
+.tabletop button{
+    float: right;
+    background:none;
+    border:none;
+    margin: 25px 10px;
+    font-size: 18px;
+}
+/*-------map => section 4 starts from here------*/
+.section4 .row{
+    margin-top: 30px;
+}
+.section4 .row .col-lg-8{
+    background-color: white;
+     box-shadow: 1px 1px 10px lightgrey;
+}
+.section4 .row .col-lg-8 .row{
+    background-color: white;
+}
+.col-lg-8 .tophead{
+    margin: 10px 25px;
+    display: inline-block;
+    font-size: 16px;
+    color: #300357;
+    font-weight: bold;
+    background-color: white;
+    position: relative;
+}
+.col-lg-8 .tophead::before{
+    content: '';
+    width: 730px;
+    position: absolute;
+    background-color: lightgray;
+    left: -13%;
+    top: calc(100% + 15px);
+    height: 1px;
+}
+.col-lg-8 .col-lg-4{
+    border-left: 1px solid lightgray;
+    background-color: white;
+}
+.navbar li span p{
+    display: inline-block;
+    float: right;
+}
+.navbar .progress{
+    width: 220px;
+    box-shadow: none;
+    margin-top: 5px;
+}
+.col-lg-4 .card{
+    background-color: white;
+    padding: 12px 0px 12px;
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 10px lightgrey;
+}
+.col-lg-4 .card span{
+    font-size: 25px;
+    color: #1193c8;
+    padding: 0px 0px 0px 20px;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+.col-lg-4 .card button{
+    float: right;
+    background-color: #6d4dd5;;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 4px;
+    margin-right: 20px;
+    font-size: 25px;
+}
+.col-lg-4 .card p{
+    font-size: 17px;
+    color: #636363;
+    letter-spacing: 1px;
+    margin-left: 30px;
+}
