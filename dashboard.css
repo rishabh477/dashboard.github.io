@@ -157,14 +157,35 @@ body{
     bottom: 10%;
     color: white;
 }
+
+.orders .fa:hover,.orders .fa:focus{
+    border:1px solid deepskyblue;
+    background:transparent;
+    color: deepskyblue;
+}
 .expenses .fa{
     background-color: deeppink;
+}
+.expenses .fa:hover,.expenses .fa:focus{
+    border:1px solid deeppink;
+    background:transparent;
+    color:deeppink;
 }
 .revenue .fa{
     background-color: #11a588;
 }
+.revenue .fa:hover,.revenue .fa:focus{
+    border:1px solid #11a588;
+    background:transparent;
+    color: #11a588;
+}
 .users .fa{
     background-color: orange;
+}
+.users .fa:hover,.users .fa:focus{
+    border:1px solid orange;
+    background:transparent;
+    color: orange;
 }
 .expenses h1{
     color: deeppink;
@@ -326,7 +347,7 @@ body{
     margin-top: 10px;
     letter-spacing: 2px;
 }
-.col-lg-4 .card button{
+.col-lg-4 .card .btn{
     float: right;
     background-color: #6d4dd5;;
     color: white;
@@ -336,6 +357,30 @@ body{
     margin: 4px;
     margin-right: 20px;
     font-size: 25px;
+}
+.col-lg-4 .card .likes{
+background-color: #6d4dd5;
+}
+.col-lg-4 .card .likes:hover,.col-lg-4 .card .likes:focus{
+    border:1px solid #6d4dd5 ;
+    background:transparent;
+    color: #6d4dd5;
+}
+.col-lg-4 .card .comments{
+    background-color: #ed351a;
+}
+.col-lg-4 .card .comments:hover,.col-lg-4 .card .comments:focus{
+    border:1px solid #ed351a ;
+    background:transparent;
+    color: #ed351a;
+}
+.col-lg-4 .card .share{
+    background-color: #27324b;
+}
+.col-lg-4 .card .share:hover,.col-lg-4 .card .share:focus{
+    border:1px solid #27324b ;
+    background:transparent;
+    color: #27324b;
 }
 .col-lg-4 .card p{
     font-size: 17px;
